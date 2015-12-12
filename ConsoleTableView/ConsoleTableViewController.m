@@ -8,6 +8,7 @@
 
 #import "ConsoleTableViewController.h"
 #import "ConsoleTableViewCell.h"
+#import "ConsoleDetailViewController.h"
 
 @interface ConsoleTableViewController ()
 
@@ -27,6 +28,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if([[segue identifier] isEqualToString:@"showConsoleDetail"])
+    {
+        ConsoleDetailViewController * consoleDVC = [segue destinationViewController];
+        
+        NSIndexPath * myIndexPath = [self.tableView indexPathForSelectedRow];
+        
+        long row = [myIndexPath row];
+        
+        consoleDVC.consoleDetailModel = @[_consoleNames[row],_consoleCompanies[row],_consoleImages[row]];
+    }
 }
 
 #pragma mark - Table view data source
