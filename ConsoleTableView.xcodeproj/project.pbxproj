@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		781450C71C1CBEFE007F787A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 781450C61C1CBEFE007F787A /* main.m */; };
 		781450CA1C1CBEFE007F787A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 781450C91C1CBEFE007F787A /* AppDelegate.m */; };
-		781450CD1C1CBEFE007F787A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781450CC1C1CBEFE007F787A /* ViewController.m */; };
 		781450D01C1CBEFE007F787A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781450CE1C1CBEFE007F787A /* Main.storyboard */; };
 		781450D21C1CBEFE007F787A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781450D11C1CBEFE007F787A /* Assets.xcassets */; };
 		781450D51C1CBEFE007F787A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781450D31C1CBEFE007F787A /* LaunchScreen.storyboard */; };
 		781450E01C1CBEFE007F787A /* ConsoleTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781450DF1C1CBEFE007F787A /* ConsoleTableViewTests.m */; };
 		781450EB1C1CBEFE007F787A /* ConsoleTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781450EA1C1CBEFE007F787A /* ConsoleTableViewUITests.m */; };
+		781450FA1C1CBF40007F787A /* ConsoleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781450F91C1CBF40007F787A /* ConsoleTableViewController.m */; };
+		781450FD1C1CBF77007F787A /* ConsoleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 781450FC1C1CBF77007F787A /* ConsoleTableViewCell.m */; };
+		781451021C1CC31D007F787A /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 781450FE1C1CC31D007F787A /* angry_birds_cake.jpg */; };
+		781451031C1CC31D007F787A /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 781450FF1C1CC31D007F787A /* creme_brelee.jpg */; };
+		781451041C1CC31D007F787A /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 781451001C1CC31D007F787A /* egg_benedict.jpg */; };
+		781451051C1CC31D007F787A /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 781451011C1CC31D007F787A /* full_breakfast.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		781450C61C1CBEFE007F787A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		781450C81C1CBEFE007F787A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		781450C91C1CBEFE007F787A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		781450CB1C1CBEFE007F787A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		781450CC1C1CBEFE007F787A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		781450CF1C1CBEFE007F787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		781450D11C1CBEFE007F787A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		781450D41C1CBEFE007F787A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,14 @@
 		781450E61C1CBEFE007F787A /* ConsoleTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsoleTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		781450EA1C1CBEFE007F787A /* ConsoleTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleTableViewUITests.m; sourceTree = "<group>"; };
 		781450EC1C1CBEFE007F787A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		781450F81C1CBF40007F787A /* ConsoleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleTableViewController.h; sourceTree = "<group>"; };
+		781450F91C1CBF40007F787A /* ConsoleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleTableViewController.m; sourceTree = "<group>"; };
+		781450FB1C1CBF77007F787A /* ConsoleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleTableViewCell.h; sourceTree = "<group>"; };
+		781450FC1C1CBF77007F787A /* ConsoleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleTableViewCell.m; sourceTree = "<group>"; };
+		781450FE1C1CC31D007F787A /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		781450FF1C1CC31D007F787A /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		781451001C1CC31D007F787A /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		781451011C1CC31D007F787A /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +112,21 @@
 		781450C41C1CBEFE007F787A /* ConsoleTableView */ = {
 			isa = PBXGroup;
 			children = (
+				781450FE1C1CC31D007F787A /* angry_birds_cake.jpg */,
+				781450FF1C1CC31D007F787A /* creme_brelee.jpg */,
+				781451001C1CC31D007F787A /* egg_benedict.jpg */,
+				781451011C1CC31D007F787A /* full_breakfast.jpg */,
 				781450C81C1CBEFE007F787A /* AppDelegate.h */,
 				781450C91C1CBEFE007F787A /* AppDelegate.m */,
-				781450CB1C1CBEFE007F787A /* ViewController.h */,
-				781450CC1C1CBEFE007F787A /* ViewController.m */,
 				781450CE1C1CBEFE007F787A /* Main.storyboard */,
 				781450D11C1CBEFE007F787A /* Assets.xcassets */,
 				781450D31C1CBEFE007F787A /* LaunchScreen.storyboard */,
 				781450D61C1CBEFE007F787A /* Info.plist */,
 				781450C51C1CBEFE007F787A /* Supporting Files */,
+				781450F81C1CBF40007F787A /* ConsoleTableViewController.h */,
+				781450F91C1CBF40007F787A /* ConsoleTableViewController.m */,
+				781450FB1C1CBF77007F787A /* ConsoleTableViewCell.h */,
+				781450FC1C1CBF77007F787A /* ConsoleTableViewCell.m */,
 			);
 			path = ConsoleTableView;
 			sourceTree = "<group>";
@@ -243,9 +260,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781451051C1CC31D007F787A /* full_breakfast.jpg in Resources */,
 				781450D51C1CBEFE007F787A /* LaunchScreen.storyboard in Resources */,
+				781451031C1CC31D007F787A /* creme_brelee.jpg in Resources */,
 				781450D21C1CBEFE007F787A /* Assets.xcassets in Resources */,
+				781451021C1CC31D007F787A /* angry_birds_cake.jpg in Resources */,
 				781450D01C1CBEFE007F787A /* Main.storyboard in Resources */,
+				781451041C1CC31D007F787A /* egg_benedict.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				781450CD1C1CBEFE007F787A /* ViewController.m in Sources */,
+				781450FA1C1CBF40007F787A /* ConsoleTableViewController.m in Sources */,
 				781450CA1C1CBEFE007F787A /* AppDelegate.m in Sources */,
 				781450C71C1CBEFE007F787A /* main.m in Sources */,
+				781450FD1C1CBF77007F787A /* ConsoleTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
